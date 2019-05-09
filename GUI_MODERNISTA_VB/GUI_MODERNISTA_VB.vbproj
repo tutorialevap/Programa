@@ -1,0 +1,875 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AF6AA296-134D-4275-92AA-EF195895CB65}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>GUI_MODERNISTA_VB.My.MyApplication</StartupObject>
+    <RootNamespace>GUI_MODERNISTA_VB</RootNamespace>
+    <AssemblyName>GUI_MODERNISTA_VB</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>GUI_MODERNISTA_VB.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>GUI_MODERNISTA_VB.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Acercade.Designer.vb">
+      <DependentUpon>Acercade.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Acercade.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Anualidades_Problema.Designer.vb">
+      <DependentUpon>Anualidades_Problema.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Anualidades_Problema.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Anualidades_teoria.Designer.vb">
+      <DependentUpon>Anualidades_teoria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Anualidades_teoria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cosstobeneficio_teoria.Designer.vb">
+      <DependentUpon>Cosstobeneficio_teoria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cosstobeneficio_teoria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="costobeneficioconanualidadesperpetuas_problema.Designer.vb">
+      <DependentUpon>costobeneficioconanualidadesperpetuas_problema.vb</DependentUpon>
+    </Compile>
+    <Compile Include="costobeneficioconanualidadesperpetuas_problema.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="costobeneficioconanualidadessimples2_problemas.Designer.vb">
+      <DependentUpon>costobeneficioconanualidadessimples2_problemas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="costobeneficioconanualidadessimples2_problemas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="costobeneficioconanualidadessimples_problema.Designer.vb">
+      <DependentUpon>costobeneficioconanualidadessimples_problema.vb</DependentUpon>
+    </Compile>
+    <Compile Include="costobeneficioconanualidadessimples_problema.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fondologo.Designer.vb">
+      <DependentUpon>Fondologo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Fondologo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDashboard.Designer.vb">
+      <DependentUpon>FormDashboard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormDashboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Instrucciones.Designer.vb">
+      <DependentUpon>Instrucciones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Instrucciones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interescompuestocongradientearitmetico_problema.Designer.vb">
+      <DependentUpon>Interescompuestocongradientearitmetico_problema.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Interescompuestocongradientearitmetico_problema.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="interescompuestogradientefuturo_teoria.Designer.vb">
+      <DependentUpon>interescompuestogradientefuturo_teoria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="interescompuestogradientefuturo_teoria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="interescompuesto_problema.Designer.vb">
+      <DependentUpon>interescompuesto_problema.vb</DependentUpon>
+    </Compile>
+    <Compile Include="interescompuesto_problema.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="interescompuesto_teoria.Designer.vb">
+      <DependentUpon>interescompuesto_teoria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="interescompuesto_teoria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="interesefectivo_problema.Designer.vb">
+      <DependentUpon>interesefectivo_problema.vb</DependentUpon>
+    </Compile>
+    <Compile Include="interesefectivo_problema.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="interesefectivo_teoria.Designer.vb">
+      <DependentUpon>interesefectivo_teoria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="interesefectivo_teoria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interessimple_problema.Designer.vb">
+      <DependentUpon>Interessimple_problema.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Interessimple_problema.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="interessimple_teoria.Designer.vb">
+      <DependentUpon>interessimple_teoria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="interessimple_teoria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inversiontotalinicial_problema.Designer.vb">
+      <DependentUpon>inversiontotalinicial_problema.vb</DependentUpon>
+    </Compile>
+    <Compile Include="inversiontotalinicial_problema.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inversiontotalinicia_teoria.Designer.vb">
+      <DependentUpon>inversiontotalinicia_teoria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="inversiontotalinicia_teoria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Periododerecuperaciondelainversion_problema.Designer.vb">
+      <DependentUpon>Periododerecuperaciondelainversion_problema.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Periododerecuperaciondelainversion_problema.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="periododerecuperacion_teoria.Designer.vb">
+      <DependentUpon>periododerecuperacion_teoria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="periododerecuperacion_teoria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="puntodeequilibrioendinero_problema.Designer.vb">
+      <DependentUpon>puntodeequilibrioendinero_problema.vb</DependentUpon>
+    </Compile>
+    <Compile Include="puntodeequilibrioendinero_problema.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="puntodeequilibrioendinero_teoria.Designer.vb">
+      <DependentUpon>puntodeequilibrioendinero_teoria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="puntodeequilibrioendinero_teoria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="puntodeequilibrioenunidades_problema.Designer.vb">
+      <DependentUpon>puntodeequilibrioenunidades_problema.vb</DependentUpon>
+    </Compile>
+    <Compile Include="puntodeequilibrioenunidades_problema.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="puntodeequilibrioenunidades_teoria.Designer.vb">
+      <DependentUpon>puntodeequilibrioenunidades_teoria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="puntodeequilibrioenunidades_teoria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rentabilidad_problemas.Designer.vb">
+      <DependentUpon>rentabilidad_problemas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="rentabilidad_problemas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rentabilidad_teoria.Designer.vb">
+      <DependentUpon>rentabilidad_teoria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="rentabilidad_teoria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tasainternaderetorno_problema.Designer.vb">
+      <DependentUpon>tasainternaderetorno_problema.vb</DependentUpon>
+    </Compile>
+    <Compile Include="tasainternaderetorno_problema.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tasaminimaaceptablederendimientomixta_problema.Designer.vb">
+      <DependentUpon>tasaminimaaceptablederendimientomixta_problema.vb</DependentUpon>
+    </Compile>
+    <Compile Include="tasaminimaaceptablederendimientomixta_problema.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tasaminimaaceptablederendiminento_problema.Designer.vb">
+      <DependentUpon>tasaminimaaceptablederendiminento_problema.vb</DependentUpon>
+    </Compile>
+    <Compile Include="tasaminimaaceptablederendiminento_problema.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tasaminima_teoria.Designer.vb">
+      <DependentUpon>Tasaminima_teoria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tasaminima_teoria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Tasainternaderetorno_teoria.Designer.vb">
+      <DependentUpon>Tasainternaderetorno_teoria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tasainternaderetorno_teoria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Valorfuturoconinterescompuesto_problema.Designer.vb">
+      <DependentUpon>Valorfuturoconinterescompuesto_problema.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Valorfuturoconinterescompuesto_problema.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="valorfuturo_teoria.Designer.vb">
+      <DependentUpon>valorfuturo_teoria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="valorfuturo_teoria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="valorpresenteconinterescompuesto_problema.Designer.vb">
+      <DependentUpon>valorpresenteconinterescompuesto_problema.vb</DependentUpon>
+    </Compile>
+    <Compile Include="valorpresenteconinterescompuesto_problema.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="valorpresentenetoconanualidadperpetua_problema.Designer.vb">
+      <DependentUpon>valorpresentenetoconanualidadperpetua_problema.vb</DependentUpon>
+    </Compile>
+    <Compile Include="valorpresentenetoconanualidadperpetua_problema.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="valorpresentenetoconanualidad_problema.Designer.vb">
+      <DependentUpon>valorpresentenetoconanualidad_problema.vb</DependentUpon>
+    </Compile>
+    <Compile Include="valorpresentenetoconanualidad_problema.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="valorpresenteneto_problema.Designer.vb">
+      <DependentUpon>valorpresenteneto_problema.vb</DependentUpon>
+    </Compile>
+    <Compile Include="valorpresenteneto_problema.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Valorpresenteneto_teoria.Designer.vb">
+      <DependentUpon>Valorpresenteneto_teoria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Valorpresenteneto_teoria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="valorpresente_teoria.Designer.vb">
+      <DependentUpon>valorpresente_teoria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="valorpresente_teoria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="waaaaa.Designer.vb">
+      <DependentUpon>waaaaa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="waaaaa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Acercade.resx">
+      <DependentUpon>Acercade.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Anualidades_Problema.resx">
+      <DependentUpon>Anualidades_Problema.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Anualidades_teoria.resx">
+      <DependentUpon>Anualidades_teoria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cosstobeneficio_teoria.resx">
+      <DependentUpon>Cosstobeneficio_teoria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="costobeneficioconanualidadesperpetuas_problema.resx">
+      <DependentUpon>costobeneficioconanualidadesperpetuas_problema.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="costobeneficioconanualidadessimples2_problemas.resx">
+      <DependentUpon>costobeneficioconanualidadessimples2_problemas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="costobeneficioconanualidadessimples_problema.resx">
+      <DependentUpon>costobeneficioconanualidadessimples_problema.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fondologo.resx">
+      <DependentUpon>Fondologo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDashboard.resx">
+      <DependentUpon>FormDashboard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Instrucciones.resx">
+      <DependentUpon>Instrucciones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interescompuestocongradientearitmetico_problema.resx">
+      <DependentUpon>Interescompuestocongradientearitmetico_problema.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="interescompuestogradientefuturo_teoria.resx">
+      <DependentUpon>interescompuestogradientefuturo_teoria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="interescompuesto_problema.resx">
+      <DependentUpon>interescompuesto_problema.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="interescompuesto_teoria.resx">
+      <DependentUpon>interescompuesto_teoria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="interesefectivo_problema.resx">
+      <DependentUpon>interesefectivo_problema.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="interesefectivo_teoria.resx">
+      <DependentUpon>interesefectivo_teoria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interessimple_problema.resx">
+      <DependentUpon>Interessimple_problema.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="interessimple_teoria.resx">
+      <DependentUpon>interessimple_teoria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inversiontotalinicial_problema.resx">
+      <DependentUpon>inversiontotalinicial_problema.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inversiontotalinicia_teoria.resx">
+      <DependentUpon>inversiontotalinicia_teoria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Periododerecuperaciondelainversion_problema.resx">
+      <DependentUpon>Periododerecuperaciondelainversion_problema.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="periododerecuperacion_teoria.resx">
+      <DependentUpon>periododerecuperacion_teoria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="puntodeequilibrioendinero_problema.resx">
+      <DependentUpon>puntodeequilibrioendinero_problema.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="puntodeequilibrioendinero_teoria.resx">
+      <DependentUpon>puntodeequilibrioendinero_teoria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="puntodeequilibrioenunidades_problema.resx">
+      <DependentUpon>puntodeequilibrioenunidades_problema.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="puntodeequilibrioenunidades_teoria.resx">
+      <DependentUpon>puntodeequilibrioenunidades_teoria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rentabilidad_problemas.resx">
+      <DependentUpon>rentabilidad_problemas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rentabilidad_teoria.resx">
+      <DependentUpon>rentabilidad_teoria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tasainternaderetorno_problema.resx">
+      <DependentUpon>tasainternaderetorno_problema.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tasainternaderetorno_teoria.resx">
+      <DependentUpon>Tasainternaderetorno_teoria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tasaminimaaceptablederendimientomixta_problema.resx">
+      <DependentUpon>tasaminimaaceptablederendimientomixta_problema.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tasaminimaaceptablederendiminento_problema.resx">
+      <DependentUpon>tasaminimaaceptablederendiminento_problema.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tasaminima_teoria.resx">
+      <DependentUpon>Tasaminima_teoria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Valorfuturoconinterescompuesto_problema.resx">
+      <DependentUpon>Valorfuturoconinterescompuesto_problema.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="valorfuturo_teoria.resx">
+      <DependentUpon>valorfuturo_teoria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="valorpresenteconinterescompuesto_problema.resx">
+      <DependentUpon>valorpresenteconinterescompuesto_problema.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="valorpresentenetoconanualidadperpetua_problema.resx">
+      <DependentUpon>valorpresentenetoconanualidadperpetua_problema.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="valorpresentenetoconanualidad_problema.resx">
+      <DependentUpon>valorpresentenetoconanualidad_problema.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="valorpresenteneto_problema.resx">
+      <DependentUpon>valorpresenteneto_problema.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Valorpresenteneto_teoria.resx">
+      <DependentUpon>Valorpresenteneto_teoria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="valorpresente_teoria.resx">
+      <DependentUpon>valorpresente_teoria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="waaaaa.resx">
+      <DependentUpon>waaaaa.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icono Minimizar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icono Maximizar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icono Restaurar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MiLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOGO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\titulo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\titulo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Equipo3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logoevap.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_itesm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\INSGTRUCCIONES.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exito.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tuto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tuto1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tutoo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tutoo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tutorial.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\INTEGRANTES.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_itesm1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\materia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Equipo31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Problema.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FormulaAnualidad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\formula.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\formula1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Formulaprin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\formulasec.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\formulasec1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\formulasec2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sust.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ope.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\formulasec21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ope2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\final.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\conclusion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\conclusion1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\formula2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\interes simple.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mixtaaa.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mixtaaa1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nose.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nose2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nose3.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nose31.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nosee4.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\interesss.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\compuestooo.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\compuestooo1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\presneteinteres.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\futurointeres.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\compu.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rentabilidad.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rentabilidad1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\puntodeeqdinero.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unidades.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\costobeneficio.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cbparte2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cbparte21.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cbperpetuo.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anualidadda.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anualidadesfo.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ivnersiontotal.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\interesefectivo.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\payback.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\valorpresenteneto.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mixtaformula.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pp.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vpnneto.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vpnneto1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vpnsus.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d21.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vpnn2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vpn2sus.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d3.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anualll2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anuanu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vvvv.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\susususus.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2dia.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\susus1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\interesssssss.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mal.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\holaholahola.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anusim.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\susim.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yaadios.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tablisssss.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yaadios1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\weee.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wiwiwi.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wewe.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bwl.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rrrrr.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fofofo.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wewewewew.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aiaiaiai.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\remedy.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\saveme.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dyno.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\omimimi.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\waaaaaa.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inte.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\intsus.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\qui.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cococ.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wa.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\warrr.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boing.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oinggg.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rentaaa.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ssss.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iaiaiai.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WELP.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wwww.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eee.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\waarr.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\priii.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\priiiiiii.PNG" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
