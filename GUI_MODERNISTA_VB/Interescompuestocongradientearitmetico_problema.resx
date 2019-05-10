@@ -126,8 +126,8 @@ en $500 iniciando en $5,000 en el año 1
 </value>
   </data>
   <data name="Label2.Text" xml:space="preserve">
-    <value>El Departamento de Carreteras de Texas espera que el costo de mantenimiento de una pieza particular de equipo 
-pesado sea de $5,000 en el año 1, $5,500 en el año 2 y el monto aumenta $500 anualmente hasta el año 10. 
-A una tasa de interés del 10% anual, ¿Cuál es el valor actual del costo de mantenimiento? </value>
+    <value>El Departamento de Carreteras de Texas espera que el costo de mantenimiento de una pieza de equipo
+pesado sea de $5,000 en el año 1, $5,500 en el año 2 y el monto aumente $500 anualmente hasta el año 10.
+Considerando una tasa de interés del 10%. ¿Cuál es el valor presente del incremento del costo de mantenimiento? </value>
   </data>
 </root>
