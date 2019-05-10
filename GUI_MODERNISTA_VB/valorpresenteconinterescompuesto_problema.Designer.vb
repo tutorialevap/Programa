@@ -158,11 +158,11 @@ Partial Class valorpresenteconinterescompuesto_problema
         Me.Label2.ForeColor = System.Drawing.Color.DimGray
         Me.Label2.Location = New System.Drawing.Point(38, 118)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(826, 40)
+        Me.Label2.Size = New System.Drawing.Size(822, 40)
         Me.Label2.TabIndex = 118
         Me.Label2.Text = "Supongamos que vamos a recibir $10,000 al final de 2 años. ¿Cuál es el valor pres" &
-    "ente de esa cantidad, asumiendo " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "que la tasa de interés es 8% anual compuesto a" &
-    "nualmente? " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+    "ente de esa cantidad, asumiendo" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "que la tasa de interés es 8% capitalizable anua" &
+    "lmente? "
         '
         'Panel4
         '

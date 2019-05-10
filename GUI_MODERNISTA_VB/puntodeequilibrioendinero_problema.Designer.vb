@@ -118,7 +118,7 @@ Partial Class puntodeequilibrioendinero_problema
         Me.Label2.ForeColor = System.Drawing.Color.DimGray
         Me.Label2.Location = New System.Drawing.Point(38, 117)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(770, 160)
+        Me.Label2.Size = New System.Drawing.Size(733, 160)
         Me.Label2.TabIndex = 126
         Me.Label2.Text = resources.GetString("Label2.Text")
         '

@@ -425,7 +425,7 @@ Partial Class costobeneficioconanualidadessimples_problema
         '
         'PictureBox6
         '
-        Me.PictureBox6.Image = Global.GUI_MODERNISTA_VB.My.Resources.Resources.susim
+        Me.PictureBox6.Image = Global.GUI_MODERNISTA_VB.My.Resources.Resources.porquenosefijanenlos0s
         Me.PictureBox6.Location = New System.Drawing.Point(432, 302)
         Me.PictureBox6.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox6.Name = "PictureBox6"

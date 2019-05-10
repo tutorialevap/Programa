@@ -118,9 +118,9 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Label2.Text" xml:space="preserve">
-    <value>Natasha es la contadora administrativa a cargo de las líneas de producción y cadenas de suministro 
-de una fábrica de muebles. La fábrica lanzara un nuevo modelo de sofá durante el año en curso y 
-quiere saber cuánto dinero deben generar las ventas del sofá para llegar a un punto de equilibrio monetario. 
+    <value>Natasha es la contadora administrativa a cargo de las líneas de producción y las cadenas de suministro
+de una fábrica de muebles. La fábrica lanzara un nuevo modelo de sofá durante el año en curso y
+quiere saber cuánto dinero deben generar las ventas del sofá para llegar a un punto de equilibrio.
 Aquí están las estadísticas de producción:
 
 Costos fijos totales: $ 500,000

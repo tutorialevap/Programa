@@ -118,9 +118,8 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Label2.Text" xml:space="preserve">
-    <value>Steve deposita $ 5,000 en su cuenta bancaria a los 18 años y no los mueve de ahi. A los 40 años decide 
-revisar su saldo y se da cuenta que tiene 226,296.2778. ¿Cuál es la tasa de interés compuesto anual 
-que le da el banco? 
-</value>
+    <value>Steve deposita $ 5,000 en su cuenta bancaria a los 18 años y no hace algún movimiento más. 
+Después de 40 años decide revisar su saldo y se da cuenta que tiene ahorrado $ 226,296.2778.
+¿Cuál es la tasa de interés compuesto anual que le da el banco?</value>
   </data>
 </root>

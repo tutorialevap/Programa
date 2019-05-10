@@ -78,7 +78,7 @@ Partial Class Valorfuturoconinterescompuesto_problema
         Me.Label2.ForeColor = System.Drawing.Color.DimGray
         Me.Label2.Location = New System.Drawing.Point(38, 121)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(810, 60)
+        Me.Label2.Size = New System.Drawing.Size(806, 60)
         Me.Label2.TabIndex = 98
         Me.Label2.Text = resources.GetString("Label2.Text")
         '
