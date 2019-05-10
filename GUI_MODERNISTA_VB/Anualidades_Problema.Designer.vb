@@ -217,7 +217,7 @@ Partial Class Anualidades_Problema
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(386, 20)
         Me.Label9.TabIndex = 51
-        Me.Label9.Text = "Una vez obtenido P podrémos sacar F con la fórmula:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.Label9.Text = "Una vez obtenido F se utiliza como P con la fórmula:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
         'Label10
         '
@@ -229,13 +229,13 @@ Partial Class Anualidades_Problema
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(169, 40)
         Me.Label10.TabIndex = 57
-        Me.Label10.Text = "Se resuelve la fórmula " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "puesta en un inicio:"
+        Me.Label10.Text = "Se resuelve la fórmula " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
         'PictureBox14
         '
         Me.PictureBox14.Image = Global.GUI_MODERNISTA_VB.My.Resources.Resources.conclusion1
         Me.PictureBox14.Location = New System.Drawing.Point(517, 238)
-        Me.PictureBox14.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.PictureBox14.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox14.Name = "PictureBox14"
         Me.PictureBox14.Size = New System.Drawing.Size(234, 58)
         Me.PictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -244,9 +244,9 @@ Partial Class Anualidades_Problema
         '
         'PictureBox13
         '
-        Me.PictureBox13.Image = Global.GUI_MODERNISTA_VB.My.Resources.Resources.final
+        Me.PictureBox13.Image = Global.GUI_MODERNISTA_VB.My.Resources.Resources.Futuro_Final_8a
         Me.PictureBox13.Location = New System.Drawing.Point(63, 303)
-        Me.PictureBox13.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.PictureBox13.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox13.Name = "PictureBox13"
         Me.PictureBox13.Size = New System.Drawing.Size(297, 162)
         Me.PictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -255,9 +255,9 @@ Partial Class Anualidades_Problema
         '
         'PictureBox12
         '
-        Me.PictureBox12.Image = Global.GUI_MODERNISTA_VB.My.Resources.Resources.Formulaprin
+        Me.PictureBox12.Image = Global.GUI_MODERNISTA_VB.My.Resources.Resources.formulasec21
         Me.PictureBox12.Location = New System.Drawing.Point(242, 218)
-        Me.PictureBox12.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.PictureBox12.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox12.Name = "PictureBox12"
         Me.PictureBox12.Size = New System.Drawing.Size(187, 60)
         Me.PictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -267,7 +267,7 @@ Partial Class Anualidades_Problema
         'PictureBox11
         '
         Me.PictureBox11.Location = New System.Drawing.Point(35, 209)
-        Me.PictureBox11.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.PictureBox11.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox11.Name = "PictureBox11"
         Me.PictureBox11.Size = New System.Drawing.Size(771, 293)
         Me.PictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -278,7 +278,7 @@ Partial Class Anualidades_Problema
         '
         Me.PictureBox10.Image = Global.GUI_MODERNISTA_VB.My.Resources.Resources.ope2
         Me.PictureBox10.Location = New System.Drawing.Point(640, 413)
-        Me.PictureBox10.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.PictureBox10.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox10.Name = "PictureBox10"
         Me.PictureBox10.Size = New System.Drawing.Size(166, 52)
         Me.PictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -289,7 +289,7 @@ Partial Class Anualidades_Problema
         '
         Me.PictureBox9.Image = Global.GUI_MODERNISTA_VB.My.Resources.Resources.formulasec21
         Me.PictureBox9.Location = New System.Drawing.Point(466, 405)
-        Me.PictureBox9.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.PictureBox9.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox9.Name = "PictureBox9"
         Me.PictureBox9.Size = New System.Drawing.Size(168, 60)
         Me.PictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -298,9 +298,9 @@ Partial Class Anualidades_Problema
         '
         'PictureBox8
         '
-        Me.PictureBox8.Image = Global.GUI_MODERNISTA_VB.My.Resources.Resources.ope
+        Me.PictureBox8.Image = Global.GUI_MODERNISTA_VB.My.Resources.Resources.futuro_presente_6a
         Me.PictureBox8.Location = New System.Drawing.Point(642, 341)
-        Me.PictureBox8.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.PictureBox8.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox8.Name = "PictureBox8"
         Me.PictureBox8.Size = New System.Drawing.Size(164, 60)
         Me.PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -309,9 +309,9 @@ Partial Class Anualidades_Problema
         '
         'PictureBox7
         '
-        Me.PictureBox7.Image = Global.GUI_MODERNISTA_VB.My.Resources.Resources.sust
+        Me.PictureBox7.Image = Global.GUI_MODERNISTA_VB.My.Resources.Resources.anualidades_presente_6a
         Me.PictureBox7.Location = New System.Drawing.Point(466, 341)
-        Me.PictureBox7.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.PictureBox7.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox7.Name = "PictureBox7"
         Me.PictureBox7.Size = New System.Drawing.Size(168, 60)
         Me.PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -320,9 +320,9 @@ Partial Class Anualidades_Problema
         '
         'PictureBox6
         '
-        Me.PictureBox6.Image = Global.GUI_MODERNISTA_VB.My.Resources.Resources.formulasec2
+        Me.PictureBox6.Image = Global.GUI_MODERNISTA_VB.My.Resources.Resources.Formulaprin
         Me.PictureBox6.Location = New System.Drawing.Point(564, 278)
-        Me.PictureBox6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.PictureBox6.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox6.Name = "PictureBox6"
         Me.PictureBox6.Size = New System.Drawing.Size(187, 60)
         Me.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -333,7 +333,7 @@ Partial Class Anualidades_Problema
         '
         Me.PictureBox5.Image = Global.GUI_MODERNISTA_VB.My.Resources.Resources.Formulaprin
         Me.PictureBox5.Location = New System.Drawing.Point(242, 218)
-        Me.PictureBox5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.PictureBox5.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox5.Name = "PictureBox5"
         Me.PictureBox5.Size = New System.Drawing.Size(187, 60)
         Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -344,7 +344,7 @@ Partial Class Anualidades_Problema
         '
         Me.PictureBox4.Image = Global.GUI_MODERNISTA_VB.My.Resources.Resources.formula1
         Me.PictureBox4.Location = New System.Drawing.Point(42, 211)
-        Me.PictureBox4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.PictureBox4.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox4.Name = "PictureBox4"
         Me.PictureBox4.Size = New System.Drawing.Size(200, 74)
         Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -354,7 +354,7 @@ Partial Class Anualidades_Problema
         'PictureBox3
         '
         Me.PictureBox3.Location = New System.Drawing.Point(42, 209)
-        Me.PictureBox3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.PictureBox3.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(771, 293)
         Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -365,7 +365,7 @@ Partial Class Anualidades_Problema
         '
         Me.PictureBox2.Image = Global.GUI_MODERNISTA_VB.My.Resources.Resources.FormulaAnualidad
         Me.PictureBox2.Location = New System.Drawing.Point(386, 209)
-        Me.PictureBox2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.PictureBox2.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(427, 293)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -376,7 +376,7 @@ Partial Class Anualidades_Problema
         '
         Me.PictureBox1.Image = Global.GUI_MODERNISTA_VB.My.Resources.Resources.Problema
         Me.PictureBox1.Location = New System.Drawing.Point(229, 24)
-        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(396, 89)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -401,7 +401,7 @@ Partial Class Anualidades_Problema
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(194, 96)
         Me.Label11.TabIndex = 58
-        Me.Label11.Text = "La persona tendrá un " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "total de $13603.82 " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "en su cuenta en un " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "plazo de 8 años"
+        Me.Label11.Text = "La persona tendrá un " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "total de $14998.22 " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "en su cuenta en un " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "plazo de 8 años"
         Me.Label11.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'Label7
@@ -414,8 +414,8 @@ Partial Class Anualidades_Problema
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(451, 60)
         Me.Label7.TabIndex = 47
-        Me.Label7.Text = "Debido a que requerimos el valor futuro (F), " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "el cual todavía no esta resuelto, " &
-    "continuaremos con la fórmula: " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.Label7.Text = "Debido a que requerimos el valor futuro (F) en el año 8, " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "debemos calcular el valor presente en el año 6 " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) &
+    "utilizando la siguiente fórmula : " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
         'Anualidades_Problema
         '

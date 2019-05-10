@@ -162,7 +162,7 @@ Partial Class costobeneficioconanualidadesperpetuas_problema
         Me.Label2.ForeColor = System.Drawing.Color.DimGray
         Me.Label2.Location = New System.Drawing.Point(38, 118)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(792, 80)
+        Me.Label2.Size = New System.Drawing.Size(784, 80)
         Me.Label2.TabIndex = 118
         Me.Label2.Text = resources.GetString("Label2.Text")
         '

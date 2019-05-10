@@ -119,9 +119,8 @@
   </resheader>
   <data name="Label2.Text" xml:space="preserve">
     <value>El gobierno del estado quiere estudiar un proyecto para la construcción de un puente que conecta 2 ciudades 
-divididas por un rio, donde los gastos anuales son de $50,000, pero los ingresos anuales son de $230,000 a un 
-horizonte de planeación de 50 años con una TMAR de 12% efectivo anual, con una inversión inicial de $100,000. 
-Encuentra el VPN del proyecto.
+divididas por un rio, donde los gastos anuales son de $50,000, pero los ingresos anuales son de $230,000 con
+una TMAR de 12% efectivo anual, con una inversión inicial de $100,000.  Encuentra el VPN del proyecto.
 </value>
   </data>
 </root>

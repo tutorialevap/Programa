@@ -41,7 +41,7 @@ Partial Class rentabilidad_teoria
         Me.Label1.ForeColor = System.Drawing.Color.DimGray
         Me.Label1.Location = New System.Drawing.Point(48, 119)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(774, 80)
+        Me.Label1.Size = New System.Drawing.Size(764, 60)
         Me.Label1.TabIndex = 124
         Me.Label1.Text = resources.GetString("Label1.Text")
         '

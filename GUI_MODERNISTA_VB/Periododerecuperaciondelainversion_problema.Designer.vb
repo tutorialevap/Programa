@@ -174,11 +174,11 @@ Partial Class Periododerecuperaciondelainversion_problema
         Me.Label8.BackColor = System.Drawing.SystemColors.ButtonHighlight
         Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.ForeColor = System.Drawing.Color.DimGray
-        Me.Label8.Location = New System.Drawing.Point(343, 423)
+        Me.Label8.Location = New System.Drawing.Point(373, 423)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(483, 24)
+        Me.Label8.Size = New System.Drawing.Size(412, 24)
         Me.Label8.TabIndex = 157
-        Me.Label8.Text = "Después de 2 años, la cantidad a retirar será de $11,664 "
+        Me.Label8.Text = "Se recupera la inversion incial a los 5.1666 años"
         Me.Label8.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'Label7

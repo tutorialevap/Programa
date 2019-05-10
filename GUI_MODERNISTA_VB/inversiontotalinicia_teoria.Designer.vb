@@ -63,7 +63,7 @@ Partial Class inversiontotalinicia_teoria
         Me.Label1.ForeColor = System.Drawing.Color.DimGray
         Me.Label1.Location = New System.Drawing.Point(42, 179)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(769, 160)
+        Me.Label1.Size = New System.Drawing.Size(784, 160)
         Me.Label1.TabIndex = 152
         Me.Label1.Text = resources.GetString("Label1.Text")
         '
@@ -128,15 +128,15 @@ Partial Class inversiontotalinicia_teoria
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ButtonHighlight
         Me.ClientSize = New System.Drawing.Size(898, 482)
-        Me.Controls.Add(Me.PictureBox3)
-        Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Panel4)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Panel3)
+        Me.Controls.Add(Me.PictureBox3)
+        Me.Controls.Add(Me.PictureBox2)
+        Me.Controls.Add(Me.Label1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "inversiontotalinicia_teoria"
         Me.Text = "inversiontotalinicia_teoria"

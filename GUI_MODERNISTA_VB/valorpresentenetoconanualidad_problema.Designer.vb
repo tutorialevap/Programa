@@ -68,10 +68,10 @@ Partial Class valorpresentenetoconanualidad_problema
         Me.Label8.ForeColor = System.Drawing.Color.DimGray
         Me.Label8.Location = New System.Drawing.Point(359, 396)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(419, 72)
+        Me.Label8.Size = New System.Drawing.Size(453, 72)
         Me.Label8.TabIndex = 112
-        Me.Label8.Text = "El Proyecto no es rentable ya que el VPN salió " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "negativo, significa que es mas g" &
-    "rande los gastos " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "que los ingresos a través de todo el proyecto" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.Label8.Text = "El Proyecto no es rentable ya que el VPN salió " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "negativo, significa que son mas " &
+    "grandes los egresos " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "que los ingresos a través de todo el proyecto" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         Me.Label8.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'Label7

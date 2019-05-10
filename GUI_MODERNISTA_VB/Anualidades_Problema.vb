@@ -247,21 +247,23 @@
         If C = 10 Then
             Label9.Visible = True
             PictureBox8.Visible = True
+            PictureBox9.Visible = True
 
             Label10.Visible = False
             Label11.Visible = False
-            PictureBox9.Visible = False
+            'PictureBox9.Visible = False
             PictureBox10.Visible = False
             PictureBox11.Visible = False
             PictureBox12.Visible = False
             PictureBox13.Visible = False
             PictureBox14.Visible = False
             Panel1.Visible = False
+            C = 12
         End If
 
 
         If C = 11 Then
-            PictureBox9.Visible = True
+            'PictureBox9.Visible = True
 
             Label10.Visible = False
             Label11.Visible = False
@@ -274,7 +276,7 @@
         End If
 
         If C = 12 Then
-            PictureBox10.Visible = True
+            'PictureBox10.Visible = True
 
             Label10.Visible = False
             Label11.Visible = False
@@ -282,7 +284,9 @@
             PictureBox12.Visible = False
             PictureBox13.Visible = False
             PictureBox14.Visible = False
+            ''PictureBox14.Visible = True
             Panel1.Visible = False
+
         End If
         If C = 13 Then
             PictureBox11.Visible = True
@@ -293,6 +297,7 @@
             PictureBox13.Visible = False
             PictureBox14.Visible = False
             Panel1.Visible = False
+
         End If
 
         If C = 14 Then
@@ -538,7 +543,7 @@
 
             Label10.Visible = False
             Label11.Visible = False
-            PictureBox9.Visible = False
+            'PictureBox9.Visible = False
             PictureBox10.Visible = False
             PictureBox11.Visible = False
             PictureBox12.Visible = False
@@ -581,6 +586,7 @@
             PictureBox13.Visible = False
             PictureBox14.Visible = False
             Panel1.Visible = False
+            C = 11
         End If
 
         If C = 14 Then

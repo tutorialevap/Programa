@@ -73,7 +73,7 @@ Partial Class valorpresente_teoria
         '
         'PictureBox2
         '
-        Me.PictureBox2.Image = Global.GUI_MODERNISTA_VB.My.Resources.Resources.presneteinteres
+        Me.PictureBox2.Image = Global.GUI_MODERNISTA_VB.My.Resources.Resources.vpic21
         Me.PictureBox2.Location = New System.Drawing.Point(136, 204)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(581, 208)

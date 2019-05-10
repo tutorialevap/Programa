@@ -119,9 +119,9 @@
   </resheader>
   <data name="Label2.Text" xml:space="preserve">
     <value>El gobierno del estado quiere estudiar un proyecto para la construcción de un puente que conecta 2 ciudades 
-divididas por un rio, donde los gastos anuales son de $50,000, pero los ingresos anuales son de $620,000 a un 
-horizonte de planeación de 50 años con una TMAR de 12% efectivo anual y requiere una inversión inicial 
-de $4,000,000. Encuentra el costo beneficio del proyecto para saber si el proyecto es rentable. 
+divididas por un rio, donde los gastos anuales son de $50,000, pero los ingresos anuales son de $620,000 
+con una TMAR de 12% efectivo anual y requiere una inversión inicial de $4,000,000.
+Encuentra el costo beneficio del proyecto para saber si el proyecto es rentable. 
 </value>
   </data>
 </root>

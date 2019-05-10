@@ -116,10 +116,11 @@ Partial Class rentabilidad_problemas
         Me.Label2.ForeColor = System.Drawing.Color.DimGray
         Me.Label2.Location = New System.Drawing.Point(38, 116)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(692, 60)
+        Me.Label2.Size = New System.Drawing.Size(701, 60)
         Me.Label2.TabIndex = 156
-        Me.Label2.Text = "Bruce tiene una empresa cuya facturación anual es de $240,000 y tiene 114,000 de " &
-    "utilidad neta " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "después de pagar impuestos. ¿Cuál es su rentabilidad anual?" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.Label2.Text = "Bruce tiene una empresa cuya facturación anual es de $240,000 y tiene $114,000 de" &
+    " utilidad neta " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "después de pagar impuestos. ¿Cuál es su rentabilidad anual?" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) &
+    ""
         '
         'Panel4
         '

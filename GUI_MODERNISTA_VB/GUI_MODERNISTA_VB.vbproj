@@ -870,6 +870,27 @@
   <ItemGroup>
     <None Include="Resources\cos-ben-perpetuo.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anualidades_presente_6a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\futuro_presente_6a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Futuro_Final_8a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vpic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vpic1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vpic2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vpic21.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
