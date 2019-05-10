@@ -134,13 +134,13 @@ También al final del año 5, se revenderá
 la máquina a $20,000</value>
   </data>
   <data name="Label2.Text" xml:space="preserve">
-    <value>Una compañía analiza la posibilidad de manufacturar un tornillo especial, es un componente de un equipo que 
-la compañía manufactura. Actualmente, la compañía compra los tornillos a un proveedor a $100 por pieza. 
-Para manufacturarlo este tipo de tornillo, la compañía necesitaría compara una maquina con un valor de $100,000 
-y que su valor de reventa al final de 5 años de uso será de $20,000. Además, para operar y mantener la máquina, 
-le costaría $5,000 anuales y aparte cada tornillo les costaría $25. Si la compañía necesita 500 tornillos por año, 
-la TMAR que usa para proyecto es de 20% anual, cuál será la decisión mas rentable para la compañía, debería 
-continuar comprando los tornillos o manufacturar los. Resuélvelo por el método de la TIR
+    <value>Una compañía analiza la posibilidad de manufacturar un tornillo especial, un componente de un equipo que
+la compañía manufactura. Actualmente, la compañía compra los tornillos a un proveedor a $100 por pieza.
+Para manufacturar este tipo de tornillo, la compañía necesitaría comprar una maquina con un valor de $100,000
+y que su valor de reventa al final de 5 años de uso será de $20,000. Además, operar y mantener la máquina,
+le costaría $5,000 anuales y aparte cada tornillo les costaría $25. Si la compañía necesita 500 tornillos por año,
+la TMAR que usa para proyecto es de 20% anual, cuál será la decisión mas rentable para la compañía, debería
+continuar comprando los tornillos o manufacturarlos. Resuélvelo por el método de la TIR
 </value>
   </data>
 </root>

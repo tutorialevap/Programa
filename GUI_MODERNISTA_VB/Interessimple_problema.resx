@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Label2.Text" xml:space="preserve">
-    <value>Una persona va a banco a depositar su dinero para meterlo a inversión, le ofrecen una tasa de 6% anual. 
+    <value>Una persona va a un banco a depositar su dinero para meterlo a inversión, le ofrecen una tasa de 6% anual. 
 Quiere saber cual es la cantidad de interés que el banco le esta dando al final de 5 años si deposito en 
 el momento $150,000. 
 </value>

@@ -864,6 +864,12 @@
   <ItemGroup>
     <None Include="Resources\priiiiiii.PNG" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vpn-perpetuo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cos-ben-perpetuo.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

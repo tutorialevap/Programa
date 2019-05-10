@@ -243,6 +243,16 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property cos_ben_perpetuo() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("cos-ben-perpetuo", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property costobeneficio() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("costobeneficio", resourceCulture)
@@ -1126,6 +1136,16 @@ Namespace My.Resources
         Friend ReadOnly Property valorpresenteneto() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("valorpresenteneto", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property vpn_perpetuo() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("vpn-perpetuo", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

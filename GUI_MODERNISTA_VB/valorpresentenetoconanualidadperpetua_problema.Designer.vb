@@ -248,7 +248,7 @@ Partial Class valorpresentenetoconanualidadperpetua_problema
         '
         'PictureBox2
         '
-        Me.PictureBox2.Image = Global.GUI_MODERNISTA_VB.My.Resources.Resources.anuanu
+        Me.PictureBox2.Image = Global.GUI_MODERNISTA_VB.My.Resources.Resources.vpn_perpetuo
         Me.PictureBox2.Location = New System.Drawing.Point(354, 203)
         Me.PictureBox2.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox2.Name = "PictureBox2"

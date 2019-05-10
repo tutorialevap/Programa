@@ -184,6 +184,9 @@
   <data name="formula1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\formula1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="vpn-perpetuo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vpn-perpetuo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="formula2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\formula2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -204,6 +207,9 @@
   </data>
   <data name="sust" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sust.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="p1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\p1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="rentabilidad" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\rentabilidad.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -277,8 +283,8 @@
   <data name="tuto" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tuto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="p1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\p1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="porquenosefijanenlos0ss" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\porquenosefijanenlos0ss.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="cococ" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cococ.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -490,7 +496,7 @@
   <data name="formulasec1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\formulasec1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="porquenosefijanenlos0ss" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\porquenosefijanenlos0ss.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="cos-ben-perpetuo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cos-ben-perpetuo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
